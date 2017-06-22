@@ -3,7 +3,7 @@ int main()
 {
     int n, reversedInteger = 0, remainder, originalInteger;
 
-    printf("Enter an integer: ");
+    printf("Uneti Broj: ");
     scanf("%d", &n);
 
     originalInteger = n;
@@ -18,9 +18,9 @@ int main()
 
     // palindrome if orignalInteger and reversedInteger are equal
     if (originalInteger == reversedInteger)
-        printf("%d is a palindrome.", originalInteger);
+        printf("%d je palindrom.", originalInteger);
     else
-        printf("%d is not a palindrome.", originalInteger);
+        printf("%d nije palindrom.", originalInteger);
 
     return 0;
 }
